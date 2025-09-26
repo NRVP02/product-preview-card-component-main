@@ -1,0 +1,24 @@
+@import "tailwindcss";
+
+@theme {       
+--color-Green-500: hsl(158, 36%, 37%);
+--color-Green-700: hsl(158, 42%, 18%);
+--color-Black: hsl(212, 21%, 14%);
+--color-Grey: hsl(228, 12%, 48%);
+--color-Cream: hsl(30, 38%, 92%);
+--color-White: hsl(0, 0%, 100%);
+--font-montserrat: montserrat;
+--font-Fraunces: Fraunces;
+}
+
+@font-face {
+     font-family: montserrat;
+     font-weight: 500, 700;
+     src:url("../fon/Montserrat/Montserrat-VariableFont_wght.ttf")
+}
+
+@font-face {
+     font-family: Fraunces ;
+     font-weight: 700;
+     src: url("../fon/Fraunces/Fraunces-VariableFont_SOFT\,WONK\,opsz\,wght.ttf");
+}
